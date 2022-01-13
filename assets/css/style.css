@@ -16,11 +16,29 @@ ul {
 li {
   margin-right: 30px;
 }
+footer{
+  height: 10vh;
+  background-color: #7f6bdb;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+footer p{
+  text-align: center;
+  font-size: 18px;
+}
 a {
   text-decoration: none;
   color: #e5e5e5;
   font-size: 1.2rem;
   font-weight: 500;
+  cursor: pointer;
+  transition: all .3s;
+}
+a:hover{
+  color: #fff;
 }
 .header {
   width: 100%;
@@ -71,7 +89,7 @@ a {
 }
 /* common style */
 .container {
-  width: 70%;
+  width: 90%;
   background-color: #fff;
   padding: 0 30px 30px 30px;
   margin: 20px auto 40px;
@@ -226,12 +244,13 @@ hr.line {
   .header{
     width: 100%;
     margin: 0 auto;
+    height: 12.5vh;
   }
   .profile{
    margin-left: 0;
   }
   .container {
-    width: 70%;
+    width: 100%;
   }
   .section_title {
     text-align: center;
